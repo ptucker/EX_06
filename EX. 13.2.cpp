@@ -34,6 +34,7 @@ int main()
     char get();
     while(!input.eof())
         {
+            //PT -- get isn't reading from the file.
             get(char& numberOfCharacters);
             count++;
         }
